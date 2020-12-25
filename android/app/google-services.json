@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "579973441763",
+    "project_id": "trippyblog",
+    "storage_bucket": "trippyblog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579973441763:android:45e15d0702684d55a27dd6",
+        "android_client_info": {
+          "package_name": "com.trippyblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579973441763-uh2hro08r2l9s7gr7k5nlkdjhlog10ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcMI5vz3GdOtjP_hl6gyLJQvgGhpOmmPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579973441763-uh2hro08r2l9s7gr7k5nlkdjhlog10ad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
