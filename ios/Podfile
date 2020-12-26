@@ -8,7 +8,6 @@ target 'TrippyBlog' do
 
   use_react_native!(:path => config["reactNativePath"])
 
-  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
 
   target 'TrippyBlogTests' do
     inherit! :complete
