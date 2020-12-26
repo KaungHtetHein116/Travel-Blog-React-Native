@@ -19,6 +19,7 @@
     "@react-navigation/native": "^5.8.10",
     "@react-navigation/stack": "^5.12.8",
     "lodash": "^4.17.20",
+    "lottie-react-native": "^3.5.0",
     "react": "16.13.1",
     "react-native": "0.63.4",
     "react-native-autogrow-textinput": "^5.4.0",

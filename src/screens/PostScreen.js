@@ -5,9 +5,11 @@ import ImageInputList from './components/ImageInputList';
 import TextInputForm from './components/TextInputForm';
 import AnimatedScrollView from '../navigation/components/AnimatedScrollView';
 import * as theme from '../util/theme';
+import LottieDone from './components/LottieDone';
 
 export default function PostScreen() {
   const [imageUris, setImageUris] = useState([]);
+  const [modalVisible, setModalVisible] = useState(false);
 
   const handleAdd = (uri) => {
     setImageUris([...imageUris, uri]);
@@ -15,6 +17,10 @@ export default function PostScreen() {
 
   const handleRemove = (uri) => {
     setImageUris(imageUris.filter((imageUri) => imageUri !== uri));
+  };
+
+  const onDone = () => {
+    setModalVisible(false);
   };
 
   return (
@@ -31,10 +37,14 @@ export default function PostScreen() {
       <Text style={styles.text}>Description</Text>
       <TextInputForm />
       <View style={{justifyContent: 'center', alignItems: 'center'}}>
-        <TouchableOpacity style={styles.loginBtn} activeOpacity={0.8}>
+        <TouchableOpacity
+          style={styles.loginBtn}
+          activeOpacity={0.8}
+          onPress={() => setModalVisible(true)}>
           <Text style={{color: 'white'}}>Post</Text>
         </TouchableOpacity>
       </View>
+      <LottieDone modalVisible={modalVisible} onDone={onDone} />
     </AnimatedScrollView>
   );
 }

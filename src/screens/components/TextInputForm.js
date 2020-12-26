@@ -4,7 +4,7 @@ import {AutoGrowingTextInput} from 'react-native-autogrow-textinput';
 
 export default function TextInputForm() {
   return (
-    <KeyboardAvoidingView style={styles.container} behavior="height">
+    <KeyboardAvoidingView style={styles.container} behavior="padding">
       <AutoGrowingTextInput placeholder={'Start Here'} />
     </KeyboardAvoidingView>
   );
