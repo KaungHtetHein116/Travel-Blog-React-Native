@@ -85,7 +85,7 @@ const renderDestinations = ({destinations}) => {
                 justifyContent: 'center',
                 alignItems: 'flex-end',
               }}>
-              <Text style={styles.rating}>{item.rating}</Text>
+              <Text style={styles.rating}>1</Text>
             </View>
           </View>
         </ImageBackground>

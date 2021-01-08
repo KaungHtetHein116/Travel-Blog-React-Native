@@ -29,7 +29,7 @@ const HomeScreen = () => {
     <Text>loading</Text>
   ) : (
     <View>
-      <HomeScreenHeader />
+      <HomeScreenHeader avatar={state.destinations[0].user.avatar} />
       <AnimatedScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{

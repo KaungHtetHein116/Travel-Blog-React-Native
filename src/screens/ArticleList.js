@@ -85,7 +85,7 @@ const ArticleList = (props) => {
       <View style={[styles.column]}>
         <FlatList
           numColumns={2}
-          pagingEnabled
+          // pagingEnabled
           scrollEnabled
           showsHorizontalScrollIndicator={false}
           scrollEventThrottle={16}

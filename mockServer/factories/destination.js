@@ -16,13 +16,29 @@ export default Factory.extend({
   temperature: Math.floor(Math.random() * (40 - 30)),
   title: faker.lorem.words(),
   description: faker.lorem.paragraphs(),
-  rating: Math.floor(Math.random() * (5 - 1)),
+  rating: 3,
   reviews: faker.random.number(),
-  preview: faker.image.imageUrl(),
+  preview: faker.image.nature(),
   images: [
-    faker.image.imageUrl(),
-    faker.image.imageUrl(),
-    faker.image.imageUrl(),
-    faker.image.imageUrl(),
+    {
+      source: {
+        uri: faker.image.nature(),
+      },
+    },
+    {
+      source: {
+        uri: faker.image.nature(),
+      },
+    },
+    {
+      source: {
+        uri: faker.image.nature(),
+      },
+    },
+    {
+      source: {
+        uri: faker.image.nature(),
+      },
+    },
   ],
 });

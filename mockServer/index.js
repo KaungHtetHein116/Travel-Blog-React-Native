@@ -11,7 +11,7 @@ const dataServer = () =>
       destination: allFactories.destination,
     },
     seeds(server) {
-      server.createList('destination', 10);
+      server.createList('destination', 6);
     },
     routes() {
       allRoutes(this, Response);

@@ -5,7 +5,7 @@ import {TouchableOpacity} from 'react-native-gesture-handler';
 import * as theme from '../../util/theme';
 import {useNavigation} from '@react-navigation/native';
 
-const HomeScreenHeader = () => {
+const HomeScreenHeader = ({avatar}) => {
   const navigation = useNavigation();
   return (
     <View style={[styles.flex, styles.row, styles.header]}>

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {View, TouchableOpacity, StyleSheet} from 'react-native';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import {TextInput} from 'react-native-gesture-handler';
@@ -7,7 +7,6 @@ import {useNavigation} from '@react-navigation/native';
 import {useSelector} from 'react-redux';
 import RenderRecommended from './components/RenderRecommended';
 import _ from 'lodash';
-import {useEffect} from 'react';
 
 const SearchScreen = () => {
   const [masterDataSource, setMasterDataSource] = useState([]);
