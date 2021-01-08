@@ -13,4 +13,4 @@
 * @react-navigation/bottom-tabs
 
 
-[CLICK HERE](https://www.youtube.com/watch?v=qEcgpjYK4wQ) to see showcase of demo app
+[CLICK HERE](https://youtu.be/h3vVw8kQtr0) to see showcase of demo app
